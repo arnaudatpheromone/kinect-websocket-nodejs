@@ -1,0 +1,36 @@
+C:\Users\blaszkowski\documents\visual studio 2010\Projects\OneSkeletonGesture\OneSkeletonGesture\bin\Debug\OneSkeletonGesture.exe
+C:\Users\blaszkowski\documents\visual studio 2010\Projects\OneSkeletonGesture\OneSkeletonGesture\bin\Debug\OneSkeletonGesture.pdb
+C:\Users\blaszkowski\documents\visual studio 2010\Projects\OneSkeletonGesture\OneSkeletonGesture\bin\Debug\Kinect.Toolkit.dll
+C:\Users\blaszkowski\documents\visual studio 2010\Projects\OneSkeletonGesture\OneSkeletonGesture\bin\Debug\Kinect.Toolkit.pdb
+C:\Users\blaszkowski\documents\visual studio 2010\Projects\OneSkeletonGesture\OneSkeletonGesture\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\blaszkowski\documents\visual studio 2010\Projects\OneSkeletonGesture\OneSkeletonGesture\obj\x86\Debug\MainWindow.baml
+C:\Users\blaszkowski\documents\visual studio 2010\Projects\OneSkeletonGesture\OneSkeletonGesture\obj\x86\Debug\MainWindow.g.cs
+C:\Users\blaszkowski\documents\visual studio 2010\Projects\OneSkeletonGesture\OneSkeletonGesture\obj\x86\Debug\App.g.cs
+C:\Users\blaszkowski\documents\visual studio 2010\Projects\OneSkeletonGesture\OneSkeletonGesture\obj\x86\Debug\OneSkeletonGesture_MarkupCompile.cache
+C:\Users\blaszkowski\documents\visual studio 2010\Projects\OneSkeletonGesture\OneSkeletonGesture\obj\x86\Debug\OneSkeletonGesture.g.resources
+C:\Users\blaszkowski\documents\visual studio 2010\Projects\OneSkeletonGesture\OneSkeletonGesture\obj\x86\Debug\OneSkeletonGesture.Properties.Resources.resources
+C:\Users\blaszkowski\documents\visual studio 2010\Projects\OneSkeletonGesture\OneSkeletonGesture\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\blaszkowski\documents\visual studio 2010\Projects\OneSkeletonGesture\OneSkeletonGesture\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\blaszkowski\documents\visual studio 2010\Projects\OneSkeletonGesture\OneSkeletonGesture\obj\x86\Debug\OneSkeletonGesture.exe
+C:\Users\blaszkowski\documents\visual studio 2010\Projects\OneSkeletonGesture\OneSkeletonGesture\obj\x86\Debug\OneSkeletonGesture.pdb
+C:\Users\blaszkowski\documents\visual studio 2010\Projects\OneSkeletonGesture\OneSkeletonGesture\bin\Debug\Coding4Fun.Kinect.Wpf.dll
+C:\Users\blaszkowski\documents\visual studio 2010\Projects\OneSkeletonGesture\OneSkeletonGesture\bin\Debug\Microsoft.Expression.Drawing.dll
+C:\Users\blaszkowski\documents\visual studio 2010\Projects\OneSkeletonGesture\OneSkeletonGesture\bin\Debug\Coding4Fun.Kinect.Wpf.pdb
+C:\Users\blaszkowski\Desktop\nodejs-kinect\kinect_sharp\OneSkeletonGesture\OneSkeletonGesture\obj\x86\Debug\OneSkeletonGesture.exe
+C:\Users\blaszkowski\Desktop\nodejs-kinect\kinect_sharp\OneSkeletonGesture\OneSkeletonGesture\obj\x86\Debug\OneSkeletonGesture.pdb
+C:\Users\blaszkowski\Desktop\nodejs-kinect\kinect_sharp\OneSkeletonGesture\OneSkeletonGesture\bin\Debug\OneSkeletonGesture.exe
+C:\Users\blaszkowski\Desktop\nodejs-kinect\kinect_sharp\OneSkeletonGesture\OneSkeletonGesture\bin\Debug\OneSkeletonGesture.pdb
+C:\Users\blaszkowski\Desktop\nodejs-kinect\kinect_sharp\OneSkeletonGesture\OneSkeletonGesture\bin\Debug\Microsoft.Expression.Drawing.dll
+C:\Users\blaszkowski\Desktop\nodejs-kinect\kinect_sharp\OneSkeletonGesture\OneSkeletonGesture\bin\Debug\Coding4Fun.Kinect.Wpf.pdb
+C:\Users\blaszkowski\Desktop\nodejs-kinect\kinect_sharp\OneSkeletonGesture\OneSkeletonGesture\bin\Debug\Kinect.Toolkit.pdb
+C:\Users\blaszkowski\Desktop\nodejs-kinect\kinect_sharp\OneSkeletonGesture\OneSkeletonGesture\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\blaszkowski\Desktop\nodejs-kinect\kinect_sharp\OneSkeletonGesture\OneSkeletonGesture\obj\x86\Debug\MainWindow.baml
+C:\Users\blaszkowski\Desktop\nodejs-kinect\kinect_sharp\OneSkeletonGesture\OneSkeletonGesture\obj\x86\Debug\MainWindow.g.cs
+C:\Users\blaszkowski\Desktop\nodejs-kinect\kinect_sharp\OneSkeletonGesture\OneSkeletonGesture\obj\x86\Debug\App.g.cs
+C:\Users\blaszkowski\Desktop\nodejs-kinect\kinect_sharp\OneSkeletonGesture\OneSkeletonGesture\obj\x86\Debug\OneSkeletonGesture_MarkupCompile.cache
+C:\Users\blaszkowski\Desktop\nodejs-kinect\kinect_sharp\OneSkeletonGesture\OneSkeletonGesture\obj\x86\Debug\OneSkeletonGesture.g.resources
+C:\Users\blaszkowski\Desktop\nodejs-kinect\kinect_sharp\OneSkeletonGesture\OneSkeletonGesture\obj\x86\Debug\OneSkeletonGesture.Properties.Resources.resources
+C:\Users\blaszkowski\Desktop\nodejs-kinect\kinect_sharp\OneSkeletonGesture\OneSkeletonGesture\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\blaszkowski\Desktop\nodejs-kinect\kinect_sharp\OneSkeletonGesture\OneSkeletonGesture\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\blaszkowski\Desktop\nodejs-kinect\kinect_src\OneSkeletonGesture\OneSkeletonGesture\obj\x86\Debug\OneSkeletonGesture.exe
+C:\Users\blaszkowski\Desktop\nodejs-kinect\kinect_src\OneSkeletonGesture\OneSkeletonGesture\obj\x86\Debug\OneSkeletonGesture.pdb

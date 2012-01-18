@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneSkeletonGesture", "OneSkeletonGesture\OneSkeletonGesture.csproj", "{1528F1DD-0B0D-4390-8562-A2B6A37A1678}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1528F1DD-0B0D-4390-8562-A2B6A37A1678}.Debug|x86.ActiveCfg = Debug|x86
+		{1528F1DD-0B0D-4390-8562-A2B6A37A1678}.Debug|x86.Build.0 = Debug|x86
+		{1528F1DD-0B0D-4390-8562-A2B6A37A1678}.Release|x86.ActiveCfg = Release|x86
+		{1528F1DD-0B0D-4390-8562-A2B6A37A1678}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
