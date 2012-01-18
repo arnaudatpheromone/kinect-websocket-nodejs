@@ -1,0 +1,75 @@
+Le serveur:
+// Le serveur est disponible via le port:8124 pour la reception des données kinect
+// et implémente la valeur de la variable public data_kinect :
+
+var data_kinect = ‘null’;
+var net = require(‘net’);
+var server = net.createServer(function (socket)
+{
+socket.addListener(“connect”, function() { console.log(“connect “); });
+socket.addListener(“data”, function(data) { data_kinect = String(data); });
+});
+
+server.listen(8124, “127.0.0.1″);
+
+// Il est également ouvert sur le port:4000
+
+var io;
+io = require(‘socket.io’).listen(4000, ’127.0.0.1′);
+io.sockets.on(‘connection’, function(socket) {});
+
+// et diffuse le contenu de data_kinect aux ‘client_kinect’
+
+setInterval(function(){ onLoop() }, 33);
+var onLoop = function(){ io.sockets.emit(‘client_kinect’, { args: data_kinect } ); }
+
+La Kinect:
+Développée en C#, cette application retourne les coordonnées ( skeleton ) de la premiére personne détectée, ainsi que les ‘slide’ main-gauche : de gauche à droite et ‘slide’ main-droite : de droite à gauche et utilise System.Net.Sockets.TcpClient pour se connecter au serveur via le port:8124 .
+
+System.Net.Sockets.TcpClient clientSocket = new System.Net.Sockets.TcpClient();
+clientSocket.Connect(“127.0.0.1″, 8124);
+
+NetworkStream serverStream = clientSocket.GetStream();
+byte[] outStream = System.Text.Encoding.ASCII.GetBytes(string message = “current message”);
+serverStream.Write(outStream, 0, outStream.Length);
+serverStream.Flush();
+
+La page web:
+
+En reception de la data, ce client se connecte au serveur via le port:4000 .
+
+var client;
+client = {};
+client.init = function() {
+client.socket = io.connect(‘http://127.0.0.1:4000′);
+client.socket.on(‘client_kinect’, function(data) {
+return client.parseData(data.args);
+});
+};
+
+Propriétés x,y,z disponibles :
+- skeleton['hipcenter']
+- skeleton['spine']
+- skeleton['head']
+- skeleton['shoulderleft']
+- skeleton['elbowleft']
+- skeleton['wristleft']
+- skeleton['handleft']
+- skeleton['shouldercenter']
+- skeleton['shoulderight']
+- skeleton['elbowright']
+- skeleton['wristright']
+- skeleton['handright']
+- skeleton['hipleft']
+- skeleton['kneeleft']
+- skeleton['ankleleft']
+- skeleton['footleft']
+- skeleton['hipright']
+- skeleton['kneeright']
+- skeleton['ankleright']
+- skeleton['footright']
+
+Kit d’installation:
+kinect SDK
+node.js
+socket.io
