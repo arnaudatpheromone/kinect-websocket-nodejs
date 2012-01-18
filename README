@@ -1,4 +1,7 @@
-Le serveur:
+
+* SERVEUR :
+-----------
+
 // Le serveur est disponible via le port:8124 pour la reception des données kinect
 // et implémente la valeur de la variable public data_kinect :
 
@@ -23,7 +26,9 @@ io.sockets.on(‘connection’, function(socket) {});
 setInterval(function(){ onLoop() }, 33);
 var onLoop = function(){ io.sockets.emit(‘client_kinect’, { args: data_kinect } ); }
 
-La Kinect:
+* KINECT :
+----------
+
 Développée en C#, cette application retourne les coordonnées ( skeleton ) de la premiére personne détectée, ainsi que les ‘slide’ main-gauche : de gauche à droite et ‘slide’ main-droite : de droite à gauche et utilise System.Net.Sockets.TcpClient pour se connecter au serveur via le port:8124 .
 
 System.Net.Sockets.TcpClient clientSocket = new System.Net.Sockets.TcpClient();
@@ -34,7 +39,8 @@ byte[] outStream = System.Text.Encoding.ASCII.GetBytes(string message = “curre
 serverStream.Write(outStream, 0, outStream.Length);
 serverStream.Flush();
 
-La page web:
+* PAGE WEB :
+------------
 
 En reception de la data, ce client se connecte au serveur via le port:4000 .
 
@@ -70,6 +76,6 @@ Propriétés x,y,z disponibles :
 - skeleton['footright']
 
 Kit d’installation:
-kinect SDK
-node.js
-socket.io
+kinect SDK : http://www.microsoft.com/en-us/kinectforwindows/
+node.js : http://nodejs.org/
+socket.io : http://socket.io/
